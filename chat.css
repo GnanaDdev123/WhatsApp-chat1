@@ -1,0 +1,174 @@
+
+#chat-box1 {
+  border: 1px solid  #ece5dd ;
+  border-right: rgb(50, 44, 44);
+  height: 627px;
+  width: 949px;
+  position: fixed;
+  right: 1px;
+  top: 1px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-image: url(https://w0.peakpx.com/wallpaper/744/548/HD-wallpaper-whatsapp-ma-doodle-pattern-thumbnail.jpg);
+
+}
+ ::-webkit-scrollbar{
+  width: 10px;
+ }
+.cb1 {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  justify-content: space-around;
+  position: sticky;
+  top: 0px;
+  bottom: 1px;
+  height: 50px;
+  width: 950px;
+  border: 1px solid  #ece5dd;
+  background-color:  #ece5dd;
+
+}
+.cont {
+  height: 40px;
+  width: 200px;
+  flex-grow: 1;
+}
+.vc {
+  height: 30px;
+  width: 58px;
+  border: 0px solid;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vc-img {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  left: 8px;
+}
+.ar {
+  position: relative;
+  /* bottom: 2px; */
+}
+.ser {
+  height: 40px;
+  width: 40px;
+  border: 0px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 10px;
+}
+.mnu {
+  height: 40px;
+  width: 40px;
+  border: 0px solid;
+  border-radius: 100px;
+  position: relative;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profil-img1 {
+  height: 45px;
+  width: 48px;
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+  bottom: 2px;
+}
+.name {
+  position: relative;
+  bottom: 37px;
+  left: 60px;
+  border: 1px solid  #ece5dd;
+  height: 20px;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.cb2 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  position:sticky;
+  bottom: 0px;
+  top: 565px;
+  height: 58px;
+  width: 950px;
+  border: 1px solid  #ece5dd;
+  background-color:  #ece5dd;
+}
+.emoji {
+  position: relative;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border: 1px solid  #ece5dd;
+}
+.em {
+  height: 24px;
+  width: 24px;
+}
+.plus {
+  position: relative;
+  left: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border: 1px solid  #ece5dd;
+}
+.input1 {
+  position: relative;
+  left: 20px;
+  height: 35px;
+  width: 762px;
+  border-radius: 7px;
+  border: 1px solid;
+  font-size: 14.5px;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+.voice {
+  height: 40px;
+  width: 40px;
+  border: 1px solid  #ece5dd;
+  position: relative;
+  left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.micro {
+  height: 27px;
+  width: 27px;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.m-box{
+  display: flex;
+  row-gap: 200px;
+  padding-left: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.cd{
+  height: 200px;
+  width: 200px;
+  border: 1px solid;
+}
